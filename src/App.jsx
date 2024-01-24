@@ -7,7 +7,7 @@ import HomePage from './components/HomePage';
 import CreateNotePage from './components/CreateNotePage';
 import ViewNotePage from './components/ViewNotePage';
 import withParams from './hocs/withParams';
-const { get, post, put, del } = initFetch('https://backend-qgqf.onrender.com/');
+const { get, post, put, del } = initFetch('http://localhost:7070/');
 const ViewNotePageWithParams = withParams(ViewNotePage);
 
 class App extends React.Component {

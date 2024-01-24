@@ -4,7 +4,7 @@ import Form from './Form';
 import Note from './Note';
 import withNavigate from '../hocs/withNavigate';
 import initFetch from '../functions/initFetch';
-const { getCurrentNote } = initFetch('https://backend-qgqf.onrender.com/');
+const { getCurrentNote } = initFetch('http://localhost:7070/');
 
 const FormWithNavigate = withNavigate(Form);
 
