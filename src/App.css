@@ -1,0 +1,133 @@
+.App-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Button {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button a {
+  display: block;
+  padding: 10px;
+  margin: -10px;
+}
+
+.Form {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.Form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form-control__text {
+  width: 300px;
+  padding: 10px;
+  font: inherit;
+  color: inherit;
+  box-shadow: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: none;
+  overflow-wrap: break-word;
+}
+
+.Form-control__button-add {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+}
+
+.Form__button-go-back {
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  height: 40px;
+  font-size: 30px;
+  color: red;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  user-select: none;
+}
+
+.Note-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.Note-controls__button-delete {
+  margin-left: 10px;
+}
+
+.Note:not(:first-child) {
+  margin-top: 50px;
+}
+
+.Note__elapsed-time {
+  font-size: 14px;
+}
+
+.Note-body {
+  position: relative;
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.Note a {
+  display: flex;
+  flex-grow: 1;
+  padding: 20px;
+  overflow-wrap: anywhere;
+}
+
+.Note-body__text {
+  padding: 20px;
+  user-select: none;
+}
+
+.Home__button-create {
+  align-self: flex-end;
+}
+
+.Home__notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.CreateNotePage {
+  margin-top: 50px;
+}
