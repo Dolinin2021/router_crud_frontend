@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/router_crud_frontend/',
+  base:'https://github.com/Dolinin2021/router_crud_frontend',
   plugins: [react()],
 })
